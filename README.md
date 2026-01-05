@@ -43,14 +43,12 @@ ACCESS THE DATASET
 --------------------
 ​
 ## File organization:   
-**Each file follows the following naming convention:**    
-​
 Each file corresponds to a sample name **N**.
- 
+
 File Name | Description | Location
 --- | --- | ---
 N.csv | single-cell feature table, including intensity data for all channels | AWS
-​
+
 ## AWS Data Access  
 ​
 **You will need the following bucket path:**  
@@ -58,21 +56,19 @@ N.csv | single-cell feature table, including intensity data for all channels | A
 lsp-public-data/williams-2026-melanoma-trm
 ```
 ​
-*For general instructions on how to download data from AWS, see: [https://zenodo.org/records/10223574](https://zenodo.org/records/10223574)*     
-  
-If you experience issues accessing the above AWS S3 buckets, email tissue-atlas(at)hms.harvard.edu with the subject line "bucketname: Data Access".  
+*For general instructions on how to download data from AWS, see: [https://zenodo.org/records/10223574](https://zenodo.org/records/10223574)*
+
+If you experience issues accessing the above AWS S3 buckets, email tissue-atlas(at)hms.harvard.edu with the subject line "lsp-public-data/williams-2026-melanoma-trm: Data Access".  
 ​
-## FILE LIST  
-​
+## FILE LIST
 ### N.csv
-​
 Biospecimen ID | File Name | File size
 --- | --- | ---
-LSP17991 | LSP17991--unmicst_cellRing.csv |
-LSP27996 | LSP27996--unmicst_cellRing.csv |
-LSP28001 | LSP28001--unmicst_cellRing.csv |
-LSP28011 | LSP28011--unmicst_cellRing.csv |
-LSP28021 | LSP28021--unmicst_cellRing.csv |
-LSP28026 | LSP28026--unmicst_cellRing.csv |
-LSP28036 | LSP28036--unmicst_cellRing.csv |
-LSP28041 | LSP28041--unmicst_cellRing.csv |
+LSP17991 | LSP17991--unmicst_cellRing.csv | 60.1 MiB
+LSP27996 | LSP27996--unmicst_cellRing.csv | 55.5 MiB
+LSP28001 | LSP28001--unmicst_cellRing.csv | 49.5 MiB
+LSP28011 | LSP28011--unmicst_cellRing.csv | 173.3 MiB
+LSP28021 | LSP28021--unmicst_cellRing.csv | 83.3 MiB
+LSP28026 | LSP28026--unmicst_cellRing.csv | 128.8 MiB
+LSP28036 | LSP28036--unmicst_cellRing.csv | 89.6 MiB
+LSP28041 | LSP28041--unmicst_cellRing.csv | 311.4 MiB
