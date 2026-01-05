@@ -49,12 +49,10 @@ File Name | Description | Location
 --- | --- | ---
 N.csv | single-cell feature table, including intensity data for all channels | AWS
 
-## AWS Data Access  
-​
-**You will need the following bucket path:**  
-```
-lsp-public-data/williams-2026-melanoma-trm
-```
+## AWS S3 Data Access  
+* S3 bucket name: `lsp-public-data`
+* bucket folder: `williams-2026-melanoma-trm`
+
 ​
 *For general instructions on how to download data from AWS, see: [https://zenodo.org/records/10223574](https://zenodo.org/records/10223574)*
 
